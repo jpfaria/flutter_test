@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
-import 'modules/authentication/auth_bloc.dart';
+import 'package:jpfaria_test_app/features/authentication/auth_bloc.dart';
 
 class MainLayout extends StatelessWidget {
   final Widget child;

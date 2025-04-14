@@ -1,8 +1,8 @@
 import 'package:flutter_modular/flutter_modular.dart';
-import 'modules/authentication/auth_module.dart';
-import 'modules/home/home_module.dart';
-import 'auth_guard.dart';
-import 'modules/authentication/auth_bloc.dart';
+import 'package:jpfaria_test_app/features/authentication/presentation/auth_module.dart';
+import 'package:jpfaria_test_app/features/home/presentation/home_module.dart';
+import 'package:jpfaria_test_app/auth_guard.dart';
+import 'package:jpfaria_test_app/features/authentication/auth_bloc.dart';
 
 class AppModule extends Module {
   @override

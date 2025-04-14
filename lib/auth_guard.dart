@@ -1,5 +1,5 @@
 import 'package:flutter_modular/flutter_modular.dart';
-import 'modules/authentication/auth_bloc.dart';
+import 'package:jpfaria_test_app/features/authentication/auth_bloc.dart';
 
 class AuthGuard extends RouteGuard {
   // Redireciona para '/auth/' se a autenticação falhar
